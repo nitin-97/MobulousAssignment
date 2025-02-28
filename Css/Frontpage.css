@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.super-container {
+  background-color: rgb(244, 244, 244);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: small;
+}
+
+.page-secondpart {
+  background-color: rgba(19, 89, 161, 1);
+}
+
+.super-contain er .page-secondpart {
+  background-color: #1359a1;
+  background-image: url("../Assests/images/backgroundPatter.png");
+  background-size: contain;
+  height: 100%;
+}
+
+.super-container .page-secondpart .headingArea {
+  margin-bottom: 69px;
+}
+.super-container .page-secondpart {
+  position: relative;
+  color: #fff;
+  padding: 49px 40px;
+  /* text-align: center; */
+}
+
+.super-container .page-secondpart .smallImage {
+  position: absolute;
+  top: 81px;
+  right: 0;
+}
+.form-data {
+  padding: 0 130px;
+}
+.form-data .input-fields {
+  display: flex;
+  flex-direction: column;
+}
+.form-data .input-fields input {
+  border: none;
+  background-color: white;
+}
+.form-data button {
+  width: 450px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2280e1;
+  color: rgb(255, 255, 255);
+}
+
+.signup-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-with-email {
+  display: flex;
+  padding-left: 25px;
+}
+/* 
+.signup-google {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+} */
+
+.signup-google img {
+  width: 24px; /* Adjust size */
+  height: 24px; /* Maintain aspect ratio */
+}
+
+.signup-outlook img {
+  width: 24px; /* Adjust size */
+  height: 24px; /* Maintain aspect ratio */
+}
+
+.signup-outlook {
+  border: 1px solid white;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.signup-google {
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.Terms {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Email */
+/* -------------------------------------------------------------------------------------- */
+.input-email {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 110%;
+}
+
+.input-email i {
+  position: absolute;
+  left: 10px; /* Adjust spacing */
+  color: gray;
+}
+
+.input-email input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Left padding to prevent text overlap */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Phone */
+/* -------------------------------------------------------------------------------------- */
+
+.input-phone {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 110%;
+}
+
+.input-phone i {
+  position: absolute;
+  left: 10px; /* Adjust spacing */
+  color: gray;
+}
+
+.input-phone input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Left padding to prevent text overlap */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* password */
+/* -------------------------------------------------------------------------------------- */
+
+.input-password {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 110%;
+}
+
+.input-password i {
+  position: absolute;
+  left: 10px; /* Adjust spacing */
+  color: gray;
+}
+
+.input-password input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Left padding to prevent text overlap */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* confrim-password */
+/* -------------------------------------------------------------------------------------- */
+
+.confirm-password {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 110%;
+}
+
+.confirm-password i {
+  position: absolute;
+  left: 10px; /* Adjust spacing */
+  color: gray;
+}
+
+.confirm-password input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Left padding to prevent text overlap */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-in {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 130px;
+  gap: 15px;
+}
+
+.footer-last {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 110px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 30px;
+}
